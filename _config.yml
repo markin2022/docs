@@ -1,0 +1,8 @@
+title: MARKIN Docs
+description: MARKIN 제품·도구 사용 설명서
+lang: ko
+theme: jekyll-theme-primer
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false

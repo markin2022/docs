@@ -1,0 +1,38 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.markdown-body {
+  max-width: 1080px;
+}
+
+/* 표는 본문 폭에 꽉 차게 */
+.markdown-body table {
+  display: table;
+  width: 100%;
+}
+
+/* 스크린샷: 이미지 자체에 얇은 테두리가 있으므로 추가 테두리 없음 */
+.markdown-body img {
+  max-width: 100%;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+}
+
+/* 표 안의 아이콘 열 */
+.markdown-body td img {
+  vertical-align: middle;
+}
+.markdown-body th:first-child:empty,
+.markdown-body td:first-child {
+  white-space: nowrap;
+}
+
+.markdown-body blockquote {
+  color: #24292f;
+  background: #f6f8fa;
+  border-left-color: #d0d7de;
+  padding: 8px 16px;
+}
