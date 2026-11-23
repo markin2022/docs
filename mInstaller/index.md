@@ -1,12 +1,17 @@
 ---
 title: mInstaller 사용자 매뉴얼
-description: MARKIN IP Installer(mInstaller) v8.3 사용자 매뉴얼
+description: MARKIN IP Installer(mInstaller) 사용자 매뉴얼
 ---
 
 # mInstaller 사용자 매뉴얼
 
 > **mInstaller (MARKIN IP Installer)** 는 같은 네트워크에 연결된 IP 카메라를 자동으로 검색하고, 네트워크 설정 · 펌웨어 업그레이드 · 유지보수 · 영상 확인을 한 화면에서 처리하는 Windows용 설치 도구입니다.
-> 기준 버전: **v8.3**
+
+## 목차
+{: .no_toc}
+
+* 목차
+{:toc}
 
 ---
 
