@@ -49,15 +49,15 @@ description: MARKIN IP 카메라 웹 브라우저 설정(Web UI) 사용자 매�
 
 모든 화면 위쪽에는 같은 도구 막대가 있습니다.
 
-| 위치 | 버튼 | 기능 |
-| --- | --- | --- |
-| 왼쪽 위 | **로그아웃** (⇦ 모양) | 로그아웃하고 로그인 화면으로 이동 |
-| 가운데 | **LIVE** (카메라 모양) | 라이브 영상 화면 (3장) |
-| 가운데 | **Ai** | AI 라이브 화면 — 객체 박스·이벤트 확인 (4장) |
-| 가운데 | **SETUP** (톱니바퀴) | 설정 화면 (5장 ~ 9장) |
-| 오른쪽 위 (LIVE) | **SNAPSHOT** | 현재 영상을 이미지 파일로 저장 |
-| 오른쪽 위 (LIVE) | **FULL SCREEN** | 영상을 전체 화면으로 보기 |
-| 오른쪽 위 (SETUP) | 모델명 · 버전 | 현재 펌웨어 버전 표시 |
+| 아이콘 | 버튼 | 위치 | 기능 |
+| :---: | --- | --- | --- |
+| ![](images/icons/logout.png) | **Logout** | 왼쪽 위 | 로그아웃하고 로그인 화면으로 이동 |
+| ![](images/icons/live.png) | **Live** | 가운데 | 라이브 영상 화면 (3장) |
+| ![](images/icons/ai.png) | **Live AI** | 가운데 | AI 라이브 화면 — 객체 박스·이벤트 확인 (4장) |
+| ![](images/icons/setup.png) | **Setup** | 가운데 | 설정 화면 (5장 ~ 9장) |
+| ![](images/icons/snapshot.png) | **SNAPSHOT** | 오른쪽 위 (Live) | 현재 영상을 이미지 파일로 저장 |
+| ![](images/icons/fullscreen.png) | **FULL SCREEN** | 오른쪽 위 (Live) | 영상을 전체 화면으로 보기 |
+|  | 모델명 · 버전 | 오른쪽 위 (Setup) | 현재 펌웨어 버전 표시 |
 
 ---
 
@@ -67,23 +67,23 @@ description: MARKIN IP 카메라 웹 브라우저 설정(Web UI) 사용자 매�
 
 | 영역 | 설명 |
 | --- | --- |
-| **≡ (메뉴)** | 왼쪽 패널 숨기기 / 보이기 |
+| ![](images/icons/menu.png) **메뉴** | 왼쪽 패널 숨기기 / 보이기 |
 | **STREAM 선택** | 볼 스트림 선택 — `STREAM 1`(메인) / `STREAM 2`(서브) / `STREAM 3` |
 | **영상 영역** | 왼쪽 위에 코덱 · 해상도 표시 (예: `H264 1920×1080`) |
-| **EVENT** | 모션 등 이벤트가 발생하면 아이콘이 표시됨 |
+| **EVENT** | 모션 이벤트 표시. 모션이 감지되면 ![](images/icons/motion.png) 아이콘 상태가 바뀜 |
 | **SYSTEM INFORMATION** | 모델, 버전, 네트워크 방식(DHCP/STATIC), IP, 서브넷, 게이트웨이, DNS, MAC, ZEROCONF IP |
 | **PTZ CONTROL** | 줌 / 포커스 조작 (아래 표) |
 
 ### 3.1 PTZ CONTROL (줌 / 포커스)
 
-| 버튼 | 기능 |
-| --- | --- |
-| 🔍+ / 🔍− | 줌 인 / 줌 아웃 |
-| **+** / **−** | 포커스 수동 조정 (가까이 / 멀리) |
-| **AF** | 오토 포커스 한 번 실행 |
-| **QUICK ZOOM** | 슬라이더로 원하는 줌 위치로 바로 이동 |
+| 아이콘 | 버튼 | 기능 |
+| :---: | --- | --- |
+| ![](images/icons/zoom_in.png) ![](images/icons/zoom_out.png) | 줌 인 / 줌 아웃 | 화각을 좁히거나(확대) 넓힘(축소) |
+| ![](images/icons/focus_plus.png) ![](images/icons/focus_minus.png) | 포커스 + / − | 포커스 수동 조정 |
+| ![](images/icons/auto_focus.png) | AF | 오토 포커스 한 번 실행 |
+|  | **QUICK ZOOM** | 슬라이더로 원하는 줌 위치로 바로 이동 |
 
-> 💡 줌을 바꾼 뒤 초점이 흐리면 **AF** 버튼을 누르세요. 설정 화면의 **ZOOM/FOCUS** (7.5)에서도 같은 조작을 할 수 있습니다.
+> 💡 줌을 바꾼 뒤 초점이 흐리면 ![](images/icons/auto_focus.png) **AF** 버튼을 누르세요. 설정 화면의 **ZOOM/FOCUS** (7.5)에서도 같은 조작을 할 수 있습니다.
 
 ---
 
@@ -115,12 +115,12 @@ AI 객체 검출 결과를 영상 위에 겹쳐 보여 주는 화면입니다. A
 
 공통 버튼
 
-| 버튼 | 기능 |
-| --- | --- |
-| 💾 (저장, 오른쪽 아래) | 현재 페이지의 설정을 카메라에 저장. **저장하지 않고 다른 메뉴로 이동하면 변경 내용이 적용되지 않습니다.** |
-| ↶ (되돌리기, 각 표 아래) | CAMERA SETUP 등에서 해당 표의 값을 기본값으로 되돌림 |
+| 아이콘 | 버튼 | 기능 |
+| :---: | --- | --- |
+| ![](images/icons/save.png) | 저장 (페이지 오른쪽 아래) | 현재 페이지의 설정을 카메라에 저장. **저장하지 않고 다른 메뉴로 이동하면 변경 내용이 적용되지 않습니다.** |
+| ![](images/icons/reset.png) | 되돌리기 (CAMERA SETUP 각 표 아래) | 해당 표의 값을 기본값으로 되돌림 |
 
-> ⚠️ CAMERA SETUP(7.3)에는 💾 저장 버튼이 없고, 슬라이더·콤보를 바꾸면 바로 카메라에 적용됩니다. 나머지 메뉴는 💾 저장을 눌러야 적용됩니다.
+> ⚠️ CAMERA SETUP(7.3)에는 저장 버튼이 없고, 슬라이더·콤보를 바꾸면 바로 카메라에 적용됩니다. 나머지 메뉴는 ![](images/icons/save.png) 저장을 눌러야 적용됩니다.
 
 ---
 
@@ -146,11 +146,11 @@ AI 객체 검출 결과를 영상 위에 겹쳐 보여 주는 화면입니다. A
 
 | 항목 | 설명 |
 | --- | --- |
-| **SYSTEM REBOOT** (⏻) | 카메라 재시작 |
-| **FACTORY DEFAULT** (↶) | 공장 초기화. **Keep Network Configuration** 을 체크하면 IP 등 네트워크 설정은 유지 |
-| **FIRMWARE UPGRADE** (⤒) | 펌웨어 파일을 선택하면 업그레이드 시작. 아래에 현재 펌웨어 버전과 NPU(AI) 버전 표시 |
-| **EXPORT** (⤓) | 체크한 항목의 설정을 파일로 저장 — ALL, DATE & TIME, USER MANAGEMENT, VIDEO, EVENT, CAMERA SETUP, DAY & NIGHT, NETWORK INTERFACE, NETWORK SERVICE, EVENT AI |
-| **IMPORT** (⤒) | 저장해 둔 설정 파일을 불러와 적용 |
+| ![](images/icons/reboot.png) **SYSTEM REBOOT** | 카메라 재시작 |
+| ![](images/icons/default.png) **FACTORY DEFAULT** | 공장 초기화. **Keep Network Configuration** 을 체크하면 IP 등 네트워크 설정은 유지 |
+| ![](images/icons/upload.png) **FIRMWARE UPGRADE** | 펌웨어 파일을 선택하면 업그레이드 시작. 아래에 현재 펌웨어 버전과 NPU(AI) 버전 표시 |
+| ![](images/icons/download.png) **EXPORT** | 체크한 항목의 설정을 파일로 저장 — ALL, DATE & TIME, USER MANAGEMENT, VIDEO, EVENT, CAMERA SETUP, DAY & NIGHT, NETWORK INTERFACE, NETWORK SERVICE, EVENT AI |
+| ![](images/icons/upload.png) **IMPORT** | 저장해 둔 설정 파일을 불러와 적용 |
 
 > ⚠️ 펌웨어 업그레이드 중에는 **전원을 끄거나 브라우저를 닫지 마세요.** 완료 후 카메라가 자동으로 재시작합니다.
 >
@@ -174,7 +174,7 @@ AI 객체 검출 결과를 영상 위에 겹쳐 보여 주는 화면입니다. A
 
 ![USER MANAGEMENT](images/sys_user.jpg)
 
-- **USER LIST** : 등록된 사용자 목록. **EDIT** 로 수정, **DELETE** 로 삭제, **NEW** 로 새 사용자 입력 시작
+- **USER LIST** : 등록된 사용자 목록. **EDIT** 로 수정, **DELETE** 로 삭제, ![](images/icons/add.png) **NEW** 로 새 사용자 입력 시작
 - **ADD / MODIFY** : 사용자 정보 입력 후 **ADD**(추가) 또는 **MODIFY**(수정)
 
 | 항목 | 설명 |
@@ -232,7 +232,7 @@ AI 객체 검출 결과를 영상 위에 겹쳐 보여 주는 화면입니다. A
 | VIDEO FLIP | **VERTICAL FLIP**(상하 반전), **HORIZONTAL FLIP**(좌우 반전) |
 | VIDEO ROTATION | 영상 회전 — `OFF` / `90degree` / `270degree`. 복도처럼 세로로 긴 장소를 찍을 때 사용(코리더 모드) |
 
-> 영상 오른쪽 아래 ▦ 버튼을 누르면 미리보기 위에 격자를 표시해 화각·수평 맞추기를 도와줍니다.
+> 영상 오른쪽 아래 ![](images/icons/grid.png) 버튼을 누르면 미리보기 위에 격자를 표시해 화각·수평 맞추기를 도와줍니다.
 
 ### 7.3 CAMERA SETUP
 
@@ -313,8 +313,8 @@ AI 객체 검출 결과를 영상 위에 겹쳐 보여 주는 화면입니다. A
 1. **USE PRIVACY** 를 체크합니다.
 2. **ZONE** 에서 영역 번호(0 ~ 3, 최대 4개)를 고르고 **MASK** 를 체크합니다.
 3. **COLOR** 에서 가림 색을 고릅니다 (WHITE, YELLOW, CYAN, GREEN, MAGENTA, RED, BLUE, BLACK).
-4. **POSITION** 화살표로 위치를, **SIZE** 화살표로 크기를 조정합니다. **MOVE STEP**(40 ~ 400)은 버튼 한 번에 움직이는 양입니다.
-5. 💾 저장합니다. **DEFAULT** 를 누르면 영역 위치·크기를 기본값으로 되돌립니다.
+4. **POSITION** 버튼(![](images/icons/move_up.png)![](images/icons/move_down.png)![](images/icons/move_left.png)![](images/icons/move_right.png))으로 위치를, **SIZE** 버튼(![](images/icons/size_up.png)![](images/icons/size_down.png)![](images/icons/size_left.png)![](images/icons/size_right.png))으로 크기를 조정합니다. **MOVE STEP**(40 ~ 400)은 버튼 한 번에 움직이는 양입니다.
+5. ![](images/icons/save.png) 저장합니다. **DEFAULT** 를 누르면 영역 위치·크기를 기본값으로 되돌립니다.
 
 ### 7.5 ZOOM/FOCUS
 
@@ -323,8 +323,8 @@ AI 객체 검출 결과를 영상 위에 겹쳐 보여 주는 화면입니다. A
 | 항목 | 설명 |
 | --- | --- |
 | MODEL | 장착된 렌즈 모델 (예: `2M_AF2812Y`) |
-| ZOOM | 줌 인 / 줌 아웃, **LENS INITIALIZATION**(렌즈 위치 초기화) |
-| FOCUS | 포커스 + / −, **AUTO FOCUS**(오토 포커스 실행) |
+| ZOOM | ![](images/icons/ptz_zoom_in.png) 줌 인 / ![](images/icons/ptz_zoom_out.png) 줌 아웃, **LENS INITIALIZATION**(렌즈 위치 초기화) |
+| FOCUS | ![](images/icons/focus_plus.png) / ![](images/icons/focus_minus.png) 포커스 수동 조정, **AUTO FOCUS**(오토 포커스 실행) |
 | OPTIONS | **AF on Day/Night Switch** — 주야간 전환 시 자동으로 AF 실행 (IR 전환 후 초점 틀어짐 방지) |
 | | **Use PTZ control lock** — 줌/포커스 조작 잠금 |
 
@@ -421,8 +421,8 @@ AI 객체 검출 결과를 영상 위에 겹쳐 보여 주는 화면입니다. A
 
 **MOTION AREA** — 영상을 격자로 나눠 모션을 감지할 영역을 지정합니다. 빨간 칸이 감지 영역입니다.
 
-- 마우스를 **왼쪽 위 → 오른쪽 아래** 로 끌면 영역 **선택**
-- 마우스를 **오른쪽 아래 → 왼쪽 위** 로 끌면 영역 **해제**
+- ![](images/icons/drag_select.png) 마우스를 **왼쪽 위 → 오른쪽 아래** 로 끌면 영역 **선택**
+- ![](images/icons/drag_deselect.png) 마우스를 **오른쪽 아래 → 왼쪽 위** 로 끌면 영역 **해제**
 
 **MOTION CONFIGURATION**
 
@@ -456,7 +456,14 @@ AI(NPU) 기반 객체 검출과 영상 분석(침입·배회 등)을 설정합�
 
 ![VIDEO ANALYTICS 미리보기](images/event_ai_va.jpg)
 
-미리보기에 선택한 ROI(빨간 선)가 표시됩니다. 미리보기 아래 오른쪽 버튼(✏ 등)으로 ROI 를 새로 그리거나 수정합니다.
+미리보기에 선택한 ROI(빨간 선)가 표시됩니다. 미리보기 아래 버튼으로 ROI 를 편집합니다.
+
+| 아이콘 | 버튼 | 기능 |
+| :---: | --- | --- |
+| ![](images/icons/event_log.png) | 이벤트 로그 | AI 이벤트 로그 창을 새 창으로 열기 (미리보기 왼쪽 아래) |
+| ![](images/icons/roi_all.png) | ALL | ROI 를 영상 전체로 지정 |
+| ![](images/icons/roi_edit.png) | EDIT | 미리보기에서 ROI 를 그리거나 수정 |
+| ![](images/icons/roi_save.png) | SAVE | 그린 ROI 저장 |
 
 ![VIDEO ANALYTICS 설정](images/event_ai_va_cfg.jpg)
 
@@ -480,7 +487,7 @@ AI(NPU) 기반 객체 검출과 영상 분석(침입·배회 등)을 설정합�
 | 초점이 흐림 | ZOOM/FOCUS(7.5)에서 **AUTO FOCUS**. 주야간 전환 후 흐려지면 **AF on Day/Night Switch** 사용 |
 | 밤에 영상이 너무 어둡거나 노이즈가 많음 | DAY & NIGHT(7.3) MODE·IR LED 확인, EXPOSURE 의 AGC·DSS, IMAGE 의 NIGHT 3DNR 조정 |
 | NVR 에 등록이 안 됨 | RTSP / ONVIF(8.4)에서 ONVIF **USE** 확인, ACCESS CONTROL 사용 시 NVR 에 같은 계정 입력 |
-| 설정을 바꿨는데 적용이 안 됨 | 페이지 오른쪽 아래 💾 저장을 눌렀는지 확인 |
+| 설정을 바꿨는데 적용이 안 됨 | 페이지 오른쪽 아래 ![](images/icons/save.png) 저장을 눌렀는지 확인 |
 
 ---
 
