@@ -11,7 +11,7 @@ from PIL import Image, ImageChops
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RAW = os.path.join(HERE, "raw")
-OUT = os.path.join(HERE, "..", "MI-IPE2525", "images")
+OUT = os.path.join(HERE, "..", "icm", "images")
 IW = 1584  # window.innerWidth (CSS px)
 sample = Image.open(os.path.join(HERE, "sample.jpg")).convert("RGB")
 
